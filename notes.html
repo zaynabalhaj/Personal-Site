@@ -1,0 +1,44 @@
+<!-- shift 1 enter to populate the backbone html -->
+<!-- div don't do anything unless there is css with it -->
+<!-- to have space btw the content and the border - increase 'padding'-->
+<!-- margin is the spacing btw elements / give a little space between the elements -->
+<!-- increasing the margin doesn't increase the size of the element -->
+
+<!-- DISPLAY PROPERTY -->
+<!-- display: block , means that the element will take the whole line, as in blocking any other elements -->
+<!-- some common block elements : p, headers , div, lists and forms -->
+<!-- span element is an inline display element also img and anchors (a) -->
+<!-- inline display elements can't change their width -->
+<!-- to have flexible width, have the display as inline-block -->
+<!-- display none will simply remove the element , visibility will make the element disappear but the position of the element will remain -->
+
+<!-- STATIC/RELATIVE POSITIONING-->
+<!-- by default , all children elements sit on top of parent elements -->
+<!-- z-index property will let u decide which element is on top -->
+<!-- static position, means default html rules (normal html flow)-->
+<!-- all elements are static by default -->
+<!-- relative position, u can move the element by the coordinates property , relative to their static position (its default position)-->
+<!-- top : z px, it will be pushed down by z px; left: z px, will be pushed right-->
+<!-- changing the position of relative elements will not affect the other elements position, it may appear above them -->
+<!-- if i want to set aan element relative to a parent, its parent should have a relative position, else it will be relative to the body -->
+
+<!-- ABSOLUTE/FIXED POSITIONING-->
+<!-- absolute positioning is positioning the element relative to its parent -->
+<!-- so if img {right:30px;} and it is inside a div, it will add a right margin of 30 px relative to the div element -->
+<!-- absolute position affect the layout/position of other elements, the element will no longer be considered in the normal flow -->
+<!-- fixed position will fix the position of the element even when scrolling, useful for sidebars, menubar -->
+
+
+<!-- CENTERING ELEMENTS -->
+<!-- text-align:center only works for elements without having their width set -->
+<!-- if it is a block element with a width, u will use auto , as margin: 0 auto 0 auto;-->
+
+<!-- SIZING -->
+<!-- for the size of the text to be dynamic, use the unit em or %, 100% means 16px, 1em is 16px-->
+<!-- when changing the font from settings chrome , the text font will change if it is set in % or em -->
+<!-- the dynamic font size property is inherited, h1 will inherit the size from the body if it is set to z % or em -->
+<!-- to avoid inheritance, use r(root)em -->
+
+<!--FLOAT/CLEAR-->
+<!-- clear: left - The element is pushed below left floated elements
+     clear: right - The element is pushed below right floated elements -->
